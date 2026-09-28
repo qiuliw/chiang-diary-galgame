@@ -1,0 +1,10 @@
+Game_name:蒋の日记;
+Game_key:chiang-diary-gal;
+Title_img:intro_04_title_hold.png;
+Title_bgm:roc_flag_anthem.mp3;
+Game_Logo:;
+Description:蒋の日记 · 入场国旗歌动画CG · 蔣中正日記互動閱覽;
+Enable_Appreciation:true;
+Enable_Continue:true;
+Enable_flowchart:true;
+Default_Language:zh_TW;

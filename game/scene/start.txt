@@ -1,0 +1,14 @@
+; 入场动画 CG：国旗歌全曲 + 四分镜升旗（双击可跳过视频）
+playVideo:intro_flag_cg.mp4;
+unlockCg:intro_flag_cg.mp4 -name=入场 · 国旗歌 -series=动画CG;
+unlockBgm:roc_flag_anthem.mp3 -name=中華民國國旗歌（演奏版） -series=国歌国旗;
+unlockCg:intro_01_dawn_sun.png -name=入场分镜 · 白日初现 -series=动画CG;
+unlockCg:intro_02_flag_rise.png -name=入场分镜 · 青天升起 -series=动画CG;
+unlockCg:intro_03_flag_wave.png -name=入场分镜 · 满地红 -series=动画CG;
+unlockCg:intro_04_title_hold.png -name=入场分镜 · 标题定格 -series=动画CG;
+bgm:roc_flag_anthem.mp3;
+changeBg:intro_04_title_hold.png -next;
+:蒋の日记;
+changeBg:bg_title.png -next;
+:请选择文本语言 / Please choose language;
+choose:繁體中文:zh-Hant/start_story.txt|简体中文:zh-Hans/start_story.txt;

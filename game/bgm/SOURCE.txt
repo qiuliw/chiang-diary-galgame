@@ -1,0 +1,10 @@
+roc_flag_anthem.mp3
+- 曲名：中華民國國旗歌（演奏版）
+- 来源：Wikimedia Commons
+  https://commons.wikimedia.org/wiki/File:National_Flag_Anthem_of_the_Republic_of_China中華民國國旗歌_(演奏版).oga
+- 原档：外交部历史发布 WMA → Commons OGA → 本仓库转码 MP3（约 72 秒）
+
+intro_flag_cg.mp4
+- 入场动画 CG：四分镜（白日初现 → 青天升起 → 满地红 → 标题定格）
+- Ken Burns 缓推 + 淡入淡出，音轨为国旗歌全曲
+- 素材：game/background/intro_01..04_*.png

@@ -1,0 +1,7 @@
+; 民国二十六年七月示范 · 专名点查 + 解锁 CG/BGM 进鉴赏
+changeBg:bg_archive_hall.png -next;
+unlockCg:bg_archive_hall.png -name=档案阅览室 -series=场景;
+:蒋の日记 · 民国二十六年七月。;
+:蓝色专名可点击或悬停查看短释。日记引文为当事人自我叙述。;
+:游玩中解锁的场景图与音乐，会进入标题的「CG模式／鉴赏」。;
+choose:打开日记:zh-Hans/chapter_1937_july.txt|返回选语言:start.txt;

@@ -1,0 +1,7 @@
+; 词典目录 —— 由 gen-glossary-scenes.mjs 生成（zh-Hant）
+changeBg:bg_archive_hall.png -next;
+changeFigure:fg_archivist.png -left -next;
+档案员:这是卷内词典。词条先给短释，需要深读再去维基。;
+choose:芦沟桥事变:zh-Hans/glossary/lugouqiao.txt|雪耻（日记栏目）:zh-Hans/glossary/xuechi.txt|宋哲元:zh-Hans/glossary/song_zheyuan.txt|淞沪会战:zh-Hans/glossary/songhu.txt|胡佛研究所藏日记:zh-Hans/glossary/hoover.txt|国史馆:zh-Hans/glossary/academia_historica.txt|青天白日:zh-Hans/glossary/blue_sky_white_sun.txt|返回:glossary_end;
+label:glossary_end;
+档案员:合上词典。;

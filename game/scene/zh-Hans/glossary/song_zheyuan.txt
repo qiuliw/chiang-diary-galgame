@@ -1,0 +1,11 @@
+; 词条 song_zheyuan —— 由 gen-glossary-scenes.mjs 生成（zh-Hant）
+; 供 callScene 呼叫；结束后回到原剧情
+changeBg:bg_archive_hall.png -next;
+changeFigure:fg_archivist.png -left -next;
+档案员:宋哲元;
+档案员:国民革命军将领，时任冀察政务委员会委员长、第二十九军军长，芦沟桥事变期间主持华北前线与对日交涉。;
+档案员:中文维基索引：https://zh.wikipedia.org/wiki/%E5%AE%8B%E5%93%B2%E5%85%83;
+档案员:English Wikipedia：https://en.wikipedia.org/wiki/Song_Zheyuan;
+
+档案员:互见：芦沟桥事变;
+档案员:（合上词条。可在浏览器打开维基连结深读。）;

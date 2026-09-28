@@ -1,0 +1,11 @@
+; 词条 xuechi —— 由 gen-glossary-scenes.mjs 生成（zh-Hant）
+; 供 callScene 呼叫；结束后回到原剧情
+changeBg:bg_archive_hall.png -next;
+changeFigure:fg_archivist.png -left -next;
+档案员:雪耻（日记栏目）;
+档案员:蒋中正日记中长期固定栏目之一。自国耻记忆与个人修省而来，每日自勉；抗战胜利后仍书写，用以标志「新耻」未尽。;
+档案员:中文维基索引：https://zh.wikipedia.org/wiki/%E8%92%8B%E4%B8%AD%E6%AD%A3%E6%97%A5%E8%AE%B0;
+档案员:English Wikipedia：https://en.wikipedia.org/wiki/Chiang_Kai-shek_diaries;
+
+
+档案员:（合上词条。可在浏览器打开维基连结深读。）;

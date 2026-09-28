@@ -1,0 +1,7 @@
+; 民國二十六年七月示範 · 專名點查 + 解鎖 CG/BGM 進鑑賞
+changeBg:bg_archive_hall.png -next;
+unlockCg:bg_archive_hall.png -name=檔案閱覽室 -series=場景;
+:蒋の日记 · 民國二十六年七月。;
+:藍色專名可點擊或懸停查看短釋。日記引文為當事人自我叙述。;
+:遊玩中解鎖的場景圖與音樂，會進入標題的「CG模式／鑑賞」。;
+choose:打開日記:zh-Hant/chapter_1937_july.txt|返回選語言:start.txt;

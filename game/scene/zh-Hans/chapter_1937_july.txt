@@ -1,0 +1,29 @@
+; 民国二十六年七月八日–十一日
+; 原文：diaries/text/蒋中正日记 1937年.md（OCR）
+; 专名点查；场景/BGM 解锁进鉴赏
+
+changeBg:bg_diary_desk.png -next;
+unlockCg:bg_diary_desk.png -name=日记书案 -series=场景;
+
+蒋中正:七月八日。雪耻——以事实来定解决问题的方法。;
+蒋中正:注意：倭寇在[芦沟桥](style=color:#0B3D91\;font-weight:700\;text-decoration:underline tips=芦沟桥事变／七七事变：1937年7月起日军与第二十九军于北平西南冲突。维基：七七事变)挑衅。彼将乘我准备未完之时使我屈服乎？;
+蒋中正:与[宋哲元](style=color:#0B3D91\;font-weight:700\;text-decoration:underline tips=宋哲元：第二十九军军长、冀察政务委员会委员长。维基：宋哲元)为难乎，使华北独立化乎？决心应战，此其时乎？;
+蒋中正:得倭寇今晨在芦沟桥挑衅之报。;
+
+changeBg:bg_chongqing_1937.png -next;
+unlockCg:bg_chongqing_1937.png -name=一九三七年山城夜色 -series=场景;
+
+蒋中正:七月九日。早起处理对华北战事，准备动员，不避战争。;
+蒋中正:闻中倭两军已撤开芦沟桥，而以石友三保安队接防了之云。;
+
+changeBg:bg_diary_desk.png -next;
+:本周反省录——;
+蒋中正:倭寇于八日在[芦沟桥](style=color:#0B3D91\;font-weight:700\;text-decoration:underline tips=芦沟桥事变／七七事变。维基：七七事变)挑衅，与我守军对战，其意在非夺取芦沟桥不休。;
+蒋中正:动员六师北运增援。如我不有积极准备，示以决心，则不能和平解决也。;
+蒋中正:此为存亡关头，万不使失守也。;
+
+changeBg:bg_title.png -next;
+unlockCg:bg_title.png -name=蒋の日记 · 标题 -series=场景;
+unlockCg:bg_taipei_dusk.png -name=台北暮色庭院 -series=场景;
+:示范切片终。蓝色专名可再点查。已解锁场景可在标题「CG模式」回看。;
+choose:重读本卷:zh-Hans/chapter_1937_july.txt|回开头:start.txt;

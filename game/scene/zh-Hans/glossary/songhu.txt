@@ -1,0 +1,11 @@
+; 词条 songhu —— 由 gen-glossary-scenes.mjs 生成（zh-Hant）
+; 供 callScene 呼叫；结束后回到原剧情
+changeBg:bg_archive_hall.png -next;
+changeFigure:fg_archivist.png -left -next;
+档案员:淞沪会战;
+档案员:1937年8月起于上海及其周边的大规模会战，是全面抗战初期最重要战役之一。;
+档案员:中文维基索引：https://zh.wikipedia.org/wiki/%E6%B7%9E%E6%B2%AA%E4%BC%9A%E6%88%98;
+档案员:English Wikipedia：https://en.wikipedia.org/wiki/Battle_of_Shanghai;
+
+档案员:互见：芦沟桥事变;
+档案员:（合上词条。可在浏览器打开维基连结深读。）;

@@ -1,0 +1,11 @@
+; 词条 lugouqiao —— 由 gen-glossary-scenes.mjs 生成（zh-Hant）
+; 供 callScene 呼叫；结束后回到原剧情
+changeBg:bg_archive_hall.png -next;
+changeFigure:fg_archivist.png -left -next;
+档案员:芦沟桥事变;
+档案员:1937年7月7–8日起，日军与国军第二十九军于北平西南芦沟桥一带冲突，习称「七七事变」，常被视为全面抗战起点之一。;
+档案员:中文维基索引：https://zh.wikipedia.org/wiki/%E4%B8%83%E4%B8%83%E4%BA%8B%E5%8F%98;
+档案员:English Wikipedia：https://en.wikipedia.org/wiki/Marco_Polo_Bridge_Incident;
+
+档案员:互见：宋哲元、淞沪会战;
+档案员:（合上词条。可在浏览器打开维基连结深读。）;

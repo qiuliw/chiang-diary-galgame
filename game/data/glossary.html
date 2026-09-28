@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>青天檔案 · 詞典</title>
+  <style>
+    :root {
+      --ink: #1a1f2e;
+      --navy: #0b3d91;
+      --paper: #f3ead7;
+      --line: #c9b896;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Noto Serif TC", "Songti TC", serif;
+      background: linear-gradient(160deg, #e8dcc4, var(--paper));
+      color: var(--ink);
+      min-height: 100vh;
+    }
+    header {
+      padding: 1.5rem 1.25rem 0.5rem;
+      border-bottom: 1px solid var(--line);
+    }
+    h1 { margin: 0; font-size: 1.5rem; letter-spacing: 0.12em; }
+    .sub { margin: 0.4rem 0 0; opacity: 0.75; font-size: 0.95rem; }
+    main { max-width: 720px; margin: 0 auto; padding: 1rem 1.25rem 3rem; }
+    input[type="search"] {
+      width: 100%;
+      padding: 0.7rem 0.9rem;
+      border: 1px solid var(--line);
+      background: #fffaf0;
+      font: inherit;
+      margin: 1rem 0;
+    }
+    article {
+      border: 1px solid var(--line);
+      background: #fffdf8;
+      padding: 1rem 1.1rem;
+      margin: 0.75rem 0;
+    }
+    article h2 { margin: 0 0 0.4rem; font-size: 1.15rem; color: var(--navy); }
+    .terms { font-size: 0.85rem; opacity: 0.7; margin-bottom: 0.5rem; }
+    .summary { line-height: 1.65; margin: 0 0 0.75rem; }
+    .links a {
+      display: inline-block;
+      margin: 0.2rem 0.6rem 0.2rem 0;
+      color: var(--navy);
+    }
+    .empty { opacity: 0.6; padding: 2rem 0; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>卷內詞典 / 卷内词典</h1>
+    <p class="sub">短釋在庫 · 詳情索引維基 · 簡繁均可搜尋</p>
+    <p class="sub" id="langHint"></p>
+  </header>
+  <main>
+    <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-top:0.75rem">
+      <button type="button" id="btn-hant">繁體顯示</button>
+      <button type="button" id="btn-hans">简体显示</button>
+    </div>
+    <input id="q" type="search" placeholder="搜尋詞條、别名 / 搜索词条、别名…" autocomplete="off" />
+    <div id="list"></div>
+  </main>
+  <script>
+    const wikiUrl = (lang, title) =>
+      (lang === "en"
+        ? "https://en.wikipedia.org/wiki/"
+        : "https://zh.wikipedia.org/wiki/") + encodeURIComponent(title.replace(/ /g, "_"));
+
+    /** Minimal fallback if OpenCC not in page: show stored dual fields or original */
+    let displayLocale = localStorage.getItem("glossary-locale") || "zh-Hant";
+
+    async function main() {
+      const res = await fetch("./glossary.json");
+      const data = await res.json();
+      const list = document.getElementById("list");
+      const q = document.getElementById("q");
+      const hint = document.getElementById("langHint");
+
+      function pick(e, key) {
+        if (displayLocale === "zh-Hans" && e[key + "_hans"]) return e[key + "_hans"];
+        return e[key];
+      }
+
+      function render(filter = "") {
+        hint.textContent =
+          displayLocale === "zh-Hans"
+            ? "当前：简体显示（词条源数据可为繁体）"
+            : "目前：繁體顯示（簡體由轉換或双欄字段提供）";
+        const f = filter.trim().toLowerCase();
+        const items = data.entries.filter((e) => {
+          if (!f) return true;
+          const bag = [e.id, e.title, e.summary, e.title_hans, e.summary_hans, ...(e.terms || [])]
+            .filter(Boolean)
+            .join("\n")
+            .toLowerCase();
+          return bag.includes(f);
+        });
+        if (!items.length) {
+          list.innerHTML = '<p class="empty">無匹配詞條 / 无匹配词条</p>';
+          return;
+        }
+        list.innerHTML = items
+          .map((e) => {
+            const wikiLinks = [];
+            if (e.wiki?.zh) wikiLinks.push(`<a href="${wikiUrl("zh", e.wiki.zh)}" target="_blank" rel="noopener">中文維基</a>`);
+            if (e.wiki?.en) wikiLinks.push(`<a href="${wikiUrl("en", e.wiki.en)}" target="_blank" rel="noopener">English Wikipedia</a>`);
+            const extra = (e.links || [])
+              .map((l) => `<a href="${l.url}" target="_blank" rel="noopener">${l.label}</a>`)
+              .join("");
+            return `<article id="${e.id}">
+              <h2>${pick(e, "title")}</h2>
+              <div class="terms">${(e.terms || []).join(" · ")}</div>
+              <p class="summary">${pick(e, "summary")}</p>
+              <div class="links">${wikiLinks.join("")}${extra}</div>
+            </article>`;
+          })
+          .join("");
+      }
+
+      function setLocale(loc) {
+        displayLocale = loc;
+        localStorage.setItem("glossary-locale", loc);
+        render(q.value);
+      }
+      document.getElementById("btn-hant").onclick = () => setLocale("zh-Hant");
+      document.getElementById("btn-hans").onclick = () => setLocale("zh-Hans");
+      q.addEventListener("input", () => render(q.value));
+      render();
+      if (location.hash) {
+        const el = document.querySelector(location.hash);
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+    main().catch((err) => {
+      document.getElementById("list").innerHTML =
+        `<p class="empty">無法載入 glossary.json：${err.message}</p>`;
+    });
+  </script>
+</body>
+</html>

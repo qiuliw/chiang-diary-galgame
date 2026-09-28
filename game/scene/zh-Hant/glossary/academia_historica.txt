@@ -1,0 +1,11 @@
+; 詞條 academia_historica —— 由 gen-glossary-scenes.mjs 生成（zh-Hant）
+; 供 callScene 呼叫；結束後回到原劇情
+changeBg:bg_archive_hall.png -next;
+changeFigure:fg_archivist.png -left -next;
+档案员:國史館;
+档案员:中華民國國史纂修與總統副總統文物典藏機構。2026年1月1日起《蔣中正日記》數位影像可於其查詢系統免費線上閱覽下載。;
+档案员:中文維基索引：https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%8F%B2%E9%A6%86_(%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD);
+档案员:English Wikipedia：https://en.wikipedia.org/wiki/Academia_Historica;
+档案员:檔案史料文物查詢系統：https://ahonline.drnh.gov.tw/;
+档案员:互見：胡佛研究所藏日記;
+档案员:（合上詞條。可在瀏覽器打開維基連結深讀。）;

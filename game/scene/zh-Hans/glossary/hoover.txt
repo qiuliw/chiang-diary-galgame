@@ -1,0 +1,11 @@
+; 词条 hoover —— 由 gen-glossary-scenes.mjs 生成（zh-Hant）
+; 供 callScene 呼叫；结束后回到原剧情
+changeBg:bg_archive_hall.png -next;
+changeFigure:fg_archivist.png -left -next;
+档案员:胡佛研究所藏日记;
+档案员:美国史丹佛大学胡佛研究所曾长期典藏并分批开放《蒋中正日记》供学者阅览；其后相关文物典藏与开放亦涉及国史馆。;
+档案员:中文维基索引：https://zh.wikipedia.org/wiki/%E8%83%A1%E4%BD%9B%E7%A0%94%E7%A9%B6%E6%89%80;
+档案员:English Wikipedia：https://en.wikipedia.org/wiki/Hoover_Institution;
+
+档案员:互见：国史馆;
+档案员:（合上词条。可在浏览器打开维基连结深读。）;

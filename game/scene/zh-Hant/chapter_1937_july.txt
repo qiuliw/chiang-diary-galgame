@@ -1,0 +1,29 @@
+; 民國二十六年七月八日–十一日
+; 原文：diaries/text/蔣中正日記 1937年.md（OCR）
+; 專名點查；場景/BGM 解鎖進鑑賞
+
+changeBg:bg_diary_desk.png -next;
+unlockCg:bg_diary_desk.png -name=日記書案 -series=場景;
+
+蔣中正:七月八日。雪恥——以事實來定解決問題的方法。;
+蔣中正:注意：倭寇在[蘆溝橋](style=color:#0B3D91\;font-weight:700\;text-decoration:underline tips=蘆溝橋事變／七七事變：1937年7月起日軍與第二十九軍於北平西南衝突。維基：七七事变)挑釁。彼將乘我準備未完之時使我屈服乎？;
+蔣中正:與[宋哲元](style=color:#0B3D91\;font-weight:700\;text-decoration:underline tips=宋哲元：第二十九軍軍長、冀察政務委員會委員長。維基：宋哲元)為難乎，使華北獨立化乎？決心應戰，此其時乎？;
+蔣中正:得倭寇今晨在蘆溝橋挑釁之報。;
+
+changeBg:bg_chongqing_1937.png -next;
+unlockCg:bg_chongqing_1937.png -name=一九三七年山城夜色 -series=場景;
+
+蔣中正:七月九日。早起處理對華北戰事，準備動員，不避戰爭。;
+蔣中正:聞中倭兩軍已撤開蘆溝橋，而以石友三保安隊接防了之云。;
+
+changeBg:bg_diary_desk.png -next;
+:本週反省錄——;
+蔣中正:倭寇於八日在[蘆溝橋](style=color:#0B3D91\;font-weight:700\;text-decoration:underline tips=蘆溝橋事變／七七事變。維基：七七事变)挑釁，與我守軍對戰，其意在非奪取蘆溝橋不休。;
+蔣中正:動員六師北運增援。如我不有積極準備，示以決心，則不能和平解決也。;
+蔣中正:此為存亡關頭，萬不使失守也。;
+
+changeBg:bg_title.png -next;
+unlockCg:bg_title.png -name=蒋の日记 · 標題 -series=場景;
+unlockCg:bg_taipei_dusk.png -name=台北暮色庭院 -series=場景;
+:示範切片終。藍色專名可再點查。已解鎖場景可在標題「CG模式」回看。;
+choose:重讀本卷:zh-Hant/chapter_1937_july.txt|回開頭:start.txt;

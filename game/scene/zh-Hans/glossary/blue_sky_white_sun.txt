@@ -1,0 +1,11 @@
+; 词条 blue_sky_white_sun —— 由 gen-glossary-scenes.mjs 生成（zh-Hant）
+; 供 callScene 呼叫；结束后回到原剧情
+changeBg:bg_archive_hall.png -next;
+changeFigure:fg_archivist.png -left -next;
+档案员:青天白日;
+档案员:中华民国国徽与党旗核心图腾：青天、白日、十二道光芒；国旗再加满地红。;
+档案员:中文维基索引：https://zh.wikipedia.org/wiki/%E9%9D%92%E5%A4%A9%E7%99%BD%E6%97%A5;
+档案员:English Wikipedia：https://en.wikipedia.org/wiki/Blue_Sky_with_a_White_Sun;
+
+
+档案员:（合上词条。可在浏览器打开维基连结深读。）;

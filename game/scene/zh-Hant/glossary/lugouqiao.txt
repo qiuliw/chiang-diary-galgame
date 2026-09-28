@@ -1,0 +1,11 @@
+; 詞條 lugouqiao —— 由 gen-glossary-scenes.mjs 生成（zh-Hant）
+; 供 callScene 呼叫；結束後回到原劇情
+changeBg:bg_archive_hall.png -next;
+changeFigure:fg_archivist.png -left -next;
+档案员:蘆溝橋事變;
+档案员:1937年7月7–8日起，日軍與國軍第二十九軍於北平西南蘆溝橋一帶衝突，習稱「七七事變」，常被視為全面抗戰起點之一。;
+档案员:中文維基索引：https://zh.wikipedia.org/wiki/%E4%B8%83%E4%B8%83%E4%BA%8B%E5%8F%98;
+档案员:English Wikipedia：https://en.wikipedia.org/wiki/Marco_Polo_Bridge_Incident;
+
+档案员:互見：宋哲元、淞滬會戰;
+档案员:（合上詞條。可在瀏覽器打開維基連結深讀。）;

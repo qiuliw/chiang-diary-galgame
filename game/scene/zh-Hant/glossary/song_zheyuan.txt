@@ -1,0 +1,11 @@
+; 詞條 song_zheyuan —— 由 gen-glossary-scenes.mjs 生成（zh-Hant）
+; 供 callScene 呼叫；結束後回到原劇情
+changeBg:bg_archive_hall.png -next;
+changeFigure:fg_archivist.png -left -next;
+档案员:宋哲元;
+档案员:國民革命軍將領，時任冀察政務委員會委員長、第二十九軍軍長，蘆溝橋事變期間主持華北前線與對日交涉。;
+档案员:中文維基索引：https://zh.wikipedia.org/wiki/%E5%AE%8B%E5%93%B2%E5%85%83;
+档案员:English Wikipedia：https://en.wikipedia.org/wiki/Song_Zheyuan;
+
+档案员:互見：蘆溝橋事變;
+档案员:（合上詞條。可在瀏覽器打開維基連結深讀。）;

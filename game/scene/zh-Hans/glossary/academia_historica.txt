@@ -1,0 +1,11 @@
+; 词条 academia_historica —— 由 gen-glossary-scenes.mjs 生成（zh-Hant）
+; 供 callScene 呼叫；结束后回到原剧情
+changeBg:bg_archive_hall.png -next;
+changeFigure:fg_archivist.png -left -next;
+档案员:国史馆;
+档案员:中华民国国史纂修与总统副总统文物典藏机构。2026年1月1日起《蒋中正日记》数位影像可于其查询系统免费线上阅览下载。;
+档案员:中文维基索引：https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%8F%B2%E9%A6%86_(%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD);
+档案员:English Wikipedia：https://en.wikipedia.org/wiki/Academia_Historica;
+档案员:档案史料文物查询系统：https://ahonline.drnh.gov.tw/;
+档案员:互见：胡佛研究所藏日记;
+档案员:（合上词条。可在浏览器打开维基连结深读。）;

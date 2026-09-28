@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "locale": "zh-Hant",
+  "wiki": {
+    "zh": "https://zh.wikipedia.org/wiki/",
+    "en": "https://en.wikipedia.org/wiki/"
+  },
+  "entries": [
+    {
+      "id": "lugouqiao",
+      "terms": [
+        "蘆溝橋",
+        "卢沟桥",
+        "盧溝橋事變",
+        "七七事變"
+      ],
+      "title": "蘆溝橋事變",
+      "summary": "1937年7月7–8日起，日軍與國軍第二十九軍於北平西南蘆溝橋一帶衝突，習稱「七七事變」，常被視為全面抗戰起點之一。",
+      "wiki": {
+        "zh": "七七事变",
+        "en": "Marco_Polo_Bridge_Incident"
+      },
+      "see_also": [
+        "song_zheyuan",
+        "songhu"
+      ],
+      "title_hans": "芦沟桥事变",
+      "summary_hans": "1937年7月7–8日起，日军与国军第二十九军于北平西南芦沟桥一带冲突，习称「七七事变」，常被视为全面抗战起点之一。"
+    },
+    {
+      "id": "xuechi",
+      "terms": [
+        "雪恥",
+        "雪耻"
+      ],
+      "title": "雪恥（日記欄目）",
+      "summary": "蔣中正日記中長期固定欄目之一。自國恥記憶與個人修省而來，每日自勉；抗戰勝利後仍書寫，用以標誌「新恥」未盡。",
+      "wiki": {
+        "zh": "蒋中正日记",
+        "en": "Chiang_Kai-shek_diaries"
+      },
+      "see_also": [],
+      "title_hans": "雪耻（日记栏目）",
+      "summary_hans": "蒋中正日记中长期固定栏目之一。自国耻记忆与个人修省而来，每日自勉；抗战胜利后仍书写，用以标志「新耻」未尽。"
+    },
+    {
+      "id": "song_zheyuan",
+      "terms": [
+        "宋哲元"
+      ],
+      "title": "宋哲元",
+      "summary": "國民革命軍將領，時任冀察政務委員會委員長、第二十九軍軍長，蘆溝橋事變期間主持華北前線與對日交涉。",
+      "wiki": {
+        "zh": "宋哲元",
+        "en": "Song_Zheyuan"
+      },
+      "see_also": [
+        "lugouqiao"
+      ],
+      "title_hans": "宋哲元",
+      "summary_hans": "国民革命军将领，时任冀察政务委员会委员长、第二十九军军长，芦沟桥事变期间主持华北前线与对日交涉。"
+    },
+    {
+      "id": "songhu",
+      "terms": [
+        "淞滬",
+        "淞滬會戰",
+        "八一三"
+      ],
+      "title": "淞滬會戰",
+      "summary": "1937年8月起於上海及其週邊的大規模會戰，是全面抗戰初期最重要戰役之一。",
+      "wiki": {
+        "zh": "淞沪会战",
+        "en": "Battle_of_Shanghai"
+      },
+      "see_also": [
+        "lugouqiao"
+      ],
+      "title_hans": "淞沪会战",
+      "summary_hans": "1937年8月起于上海及其周边的大规模会战，是全面抗战初期最重要战役之一。"
+    },
+    {
+      "id": "hoover",
+      "terms": [
+        "胡佛研究所",
+        "史丹佛",
+        "斯坦福"
+      ],
+      "title": "胡佛研究所藏日記",
+      "summary": "美國史丹佛大學胡佛研究所曾長期典藏並分批開放《蔣中正日記》供學者閱覽；其後相關文物典藏與開放亦涉及國史館。",
+      "wiki": {
+        "zh": "胡佛研究所",
+        "en": "Hoover_Institution"
+      },
+      "see_also": [
+        "academia_historica"
+      ],
+      "title_hans": "胡佛研究所藏日记",
+      "summary_hans": "美国史丹佛大学胡佛研究所曾长期典藏并分批开放《蒋中正日记》供学者阅览；其后相关文物典藏与开放亦涉及国史馆。"
+    },
+    {
+      "id": "academia_historica",
+      "terms": [
+        "國史館",
+        "国史馆"
+      ],
+      "title": "國史館",
+      "summary": "中華民國國史纂修與總統副總統文物典藏機構。2026年1月1日起《蔣中正日記》數位影像可於其查詢系統免費線上閱覽下載。",
+      "wiki": {
+        "zh": "国史馆_(中华民国)",
+        "en": "Academia_Historica"
+      },
+      "see_also": [
+        "hoover"
+      ],
+      "links": [
+        {
+          "label": "檔案史料文物查詢系統",
+          "url": "https://ahonline.drnh.gov.tw/"
+        }
+      ],
+      "title_hans": "国史馆",
+      "summary_hans": "中华民国国史纂修与总统副总统文物典藏机构。2026年1月1日起《蒋中正日记》数位影像可于其查询系统免费线上阅览下载。"
+    },
+    {
+      "id": "blue_sky_white_sun",
+      "terms": [
+        "青天白日",
+        "青天白日滿地紅"
+      ],
+      "title": "青天白日",
+      "summary": "中華民國國徽與黨旗核心圖騰：青天、白日、十二道光芒；國旗再加滿地紅。",
+      "wiki": {
+        "zh": "青天白日",
+        "en": "Blue_Sky_with_a_White_Sun"
+      },
+      "see_also": [],
+      "title_hans": "青天白日",
+      "summary_hans": "中华民国国徽与党旗核心图腾：青天、白日、十二道光芒；国旗再加满地红。"
+    }
+  ]
+}

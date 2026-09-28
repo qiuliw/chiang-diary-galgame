@@ -1,0 +1,11 @@
+; 詞條 blue_sky_white_sun —— 由 gen-glossary-scenes.mjs 生成（zh-Hant）
+; 供 callScene 呼叫；結束後回到原劇情
+changeBg:bg_archive_hall.png -next;
+changeFigure:fg_archivist.png -left -next;
+档案员:青天白日;
+档案员:中華民國國徽與黨旗核心圖騰：青天、白日、十二道光芒；國旗再加滿地紅。;
+档案员:中文維基索引：https://zh.wikipedia.org/wiki/%E9%9D%92%E5%A4%A9%E7%99%BD%E6%97%A5;
+档案员:English Wikipedia：https://en.wikipedia.org/wiki/Blue_Sky_with_a_White_Sun;
+
+
+档案员:（合上詞條。可在瀏覽器打開維基連結深讀。）;
